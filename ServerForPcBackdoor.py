@@ -3,8 +3,7 @@ import socket
 def Server():
 	global server
 
-	Host = 'localhost'
-	Port = 6482
+	Host, Port = '169.254.40.25', 6482
 
 	server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	server.bind((Host, Port))
