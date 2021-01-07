@@ -1,0 +1,7 @@
+Jo we should do something together
+That would be fun
+
+git list
+
+git add --all
+
