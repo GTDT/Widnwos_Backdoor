@@ -25,7 +25,7 @@
 import socket, os, subprocess
 
 def connect():
-	Host, Port = '169.254.40.25', 6482
+	Host, Port = 'LocalHost', 6482
 
 	client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	def ConnToTheServer():
