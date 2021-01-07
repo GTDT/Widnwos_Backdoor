@@ -40,7 +40,7 @@ def Start():
 	Host, Port = 'localhost', 6482
 	client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	client.settimeout(120)
-	print("	    waiting for server responce...")
+	print("		   waiting for server responce...")
 
 	## Definition/Function that tries to connects to the server.
 	def ConnToTheServer():
